@@ -31,4 +31,4 @@ export interface Spec extends TurboModule {
   turboMultiply(num1: number, num2: number): number;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('TurboStarter');
+export default TurboModuleRegistry.getEnforcing<Spec>('TurboSecureStorage');
